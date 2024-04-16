@@ -21,7 +21,7 @@ const Map = () => {
   return (
     <div className="map">
       <h2 className="map-h2">Come Visit Us</h2>
-      <div className="google-map">
+      <div style={{ height: "35vh", width: "100%" }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyB4YgPfQbfjoZ1nkN5vQH9t2Z-_vXHRl8o" }}
           defaultCenter={location}

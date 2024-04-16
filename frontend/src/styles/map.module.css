@@ -8,14 +8,14 @@
 
 .google-map {
   width: 100%;
-  height: 60vh;
+  height: 100vh;
 }
 
 .pin {
   display: flex;
   align-items: center;
   width: 180px;
-  color: var(--main-blue);
+  color: red;
 }
 
 .pin:hover {
@@ -23,14 +23,14 @@
 }
 
 .pin-icon {
-  font-size: 4rem !important;
+  font-size: 16rem !important;
 }
 
 .pin-text {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(163, 7, 7, 0.9);
   border-radius: 10px;
   padding: 10px;
-  font-size: 1.3em;
+  font-size: 3.4em;
   color: var(--main-blue);
 }
 
@@ -45,7 +45,7 @@
   }
 
   .pin {
-    width: 15vw;
+    width: 25vw;
   }
 
   .pin-icon {

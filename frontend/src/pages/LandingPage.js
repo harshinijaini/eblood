@@ -22,8 +22,12 @@ const LandingPage = () => {
           </ul>
         </div>
 
-        <div className={styles.imageSection}>
-          <img src="/images/blood-gif.gif" alt="Blood Cells" />
+        <div>
+          <img
+            src="/images/BloodCells.png"
+            alt="Blood Cells"
+            style={{ height: "270px", width: "auto", borderRadius: "30px" }}
+          />
         </div>
       </div>
       <section className={styles.donorSection}>
@@ -73,8 +77,8 @@ const LandingPage = () => {
           <div className={styles.donorColumn}>
             <h3>Contact Us</h3>
             <p>
-              If you've got a question, get in touch. You can do this here
-              online or by WhatsApp 7661 80 81-82.
+              If you've got a question, get in touch. You can email us at:
+              hjaini1@student.gsu.edu
             </p>
           </div>
         </div>
@@ -85,11 +89,11 @@ const LandingPage = () => {
         <div className={styles.statisticsContent}>
           <div className={styles.statisticCard}>
             <h3>Number of Donors</h3>
-            <p className={styles.statNumber}>500+</p>
+            <p className={styles.statNumber}>200+</p>
           </div>
           <div className={styles.statisticCard}>
-            <h3>Days Since Last Incident</h3>
-            <p className={styles.statNumber}>320</p>
+            <h3>Number of Days</h3>
+            <p className={styles.statNumber}>62</p>
           </div>
         </div>
       </section>

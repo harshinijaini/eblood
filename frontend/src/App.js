@@ -10,6 +10,8 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import LandingPage from "./pages/LandingPage";
 import Navbar from "./components/Navbar";
+import CheckList from "./pages/CheckList";
+import SiteDescription from "./pages/SiteDescription";
 
 function App() {
   const { user } = useAuthContext();
@@ -30,6 +32,8 @@ function App() {
             <Route path="/home" element={<LandingPage />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/terms" element={<Terms />} />
+            <Route path="/checkList" element={<CheckList />} />
+            <Route path="/siteDescription" element={<SiteDescription />} />
             <Route
               path="/login"
               element={!user ? <Login /> : <Navigate to="/" />}

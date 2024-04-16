@@ -3,44 +3,45 @@ import styles from "../styles/aboutus.module.css";
 
 const AboutUs = () => {
   return (
-    <div className="container">
+    <div className={styles.container}>
+      <h1>About US</h1>
       <section className={styles.section}>
-        <h2>About Who We Are</h2>
+        <h2>About Who You Are</h2>
         <p>
-          We are a dedicated team with a shared vision of delivering impactful
-          solutions. Our diverse expertise across various fields enables us to
-          approach problems with a holistic view.
+          I am Harshini Jaini, currently pursuing Masters degree in Computer
+          Science at Georgia State University.
         </p>
       </section>
 
       <section className={styles.section}>
         <h2>Project Description</h2>
         <p>
-          This project represents our commitment to excellence and innovation.
-          It's been chosen for its potential to drive positive change and
-          address real-world issues effectively.
+          eBLOOD is an intuitive web platform that centralizes donor management
+          for administrators and provides essential insights into the blood
+          donation process. Designed to simplify donor tracking and facilitate
+          urgent blood matches, it also offers detailed organizational
+          information and real-time donation statistics
         </p>
       </section>
 
       <section className={styles.section}>
         <h2>Technology Stack</h2>
         <p>
-          We have utilized a modern tech stack including HTML5, CSS3,
-          JavaScript, and various frameworks. This robust combination
-          facilitates a responsive and user-friendly experience.
+          We have utilized a modern tech stack including React JS, Express JS,
+          Mongo DB, Node JS. This robust combination facilitates a responsive
+          and user-friendly experience.
         </p>
       </section>
 
       <section className={styles.section}>
         <h2>Class Learnings</h2>
         <p>
-          Our class journey has been a roadmap of continuous learning, from the
-          intricacies of code to the subtleties of user interface design. Each
-          lesson has refined our approach to this craft.
+          I gained knowledge in a variety of web programming technologies
+          through this course, which provided me with an introduction to web
+          technologies such as JavaScript, PHP, and ReactJS. Additionally, I
+          learned about session management and how to enhance website
+          interactivity using Ajax.
         </p>
-      </section>
-      <section className={styles.section}>
-        <Map />
       </section>
     </div>
   );

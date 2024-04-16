@@ -19,10 +19,12 @@ const Navbar = () => {
         <nav>
           {user && (
             <div>
-              <span>Welcome, {user.email}</span>
               <Link to="/home">Home</Link>
               <Link to="/about">About Us</Link>
               <Link to="/terms">Terms</Link>
+              <Link to="/checkList">CheckList</Link>
+              <Link to="/siteDescription">SiteDescription</Link> |
+              <span style={{ color: "red" }}> Welcome, {user.email}</span>
               <Link to="/">Profile</Link>
               <button onClick={handleClick}>Log out</button>
             </div>
@@ -32,6 +34,8 @@ const Navbar = () => {
               <Link to="/home">Home</Link>
               <Link to="/about">About Us</Link>
               <Link to="/terms">Terms</Link>
+              <Link to="/checkList">CheckList</Link>
+              <Link to="/siteDescription">SiteDescription</Link>
               <Link to="/login">Login</Link>
               <Link to="/signup">Signup</Link>
             </div>

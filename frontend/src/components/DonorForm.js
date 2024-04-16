@@ -64,64 +64,76 @@ const DonorForm = () => {
     <form className="create" onSubmit={handleSubmit}>
       <h3>Add a New Donor</h3>
 
-      <label>
+      {/* <label>
         First Name<span className="required"> *</span>
-      </label>
+      </label> */}
       <input
         type="text"
         onChange={(e) => setFirstname(e.target.value)}
         value={firstname}
         className={emptyFields.includes("firstname") ? "error" : ""}
+        required
+        placeholder="First Name *"
       />
 
-      <label>
+      {/* <label>
         Last Name <span className="required"> *</span>
-      </label>
+      </label> */}
       <input
         type="text"
         onChange={(e) => setLastname(e.target.value)}
         value={lastname}
         className={emptyFields.includes("lastname") ? "error" : ""}
+        required
+        placeholder="Last Name *"
       />
 
-      <label>
+      {/* <label>
         Mobile No <span className="required"> *</span>
-      </label>
+      </label> */}
       <input
         type="number"
         onChange={(e) => setMobileno(e.target.value)}
         value={mobile_no}
         className={emptyFields.includes("mobile_no") ? "error" : ""}
+        required
+        placeholder="Mobile No *"
       />
 
-      <label>
+      {/* <label>
         Blood Group <span className="required"> *</span>
-      </label>
+      </label> */}
       <input
         type="text"
         onChange={(e) => setBloodGroup(e.target.value)}
         value={blood_group}
         className={emptyFields.includes("blood_group") ? "error" : ""}
+        required
+        placeholder="Blood Group *"
       />
-
+      {/* 
       <label>
         Age <span className="required"> *</span>
-      </label>
+      </label> */}
       <input
         type="number"
         onChange={(e) => setAge(e.target.value)}
         value={age}
         className={emptyFields.includes("age") ? "error" : ""}
+        required
+        placeholder="Age *"
       />
 
-      <label>
+      {/* <label>
         Location<span className="required"> *</span>
-      </label>
+      </label> */}
       <input
         type="text"
         onChange={(e) => setLocation(e.target.value)}
         value={location}
         className={emptyFields.includes("location") ? "error" : ""}
+        required
+        placeholder="Location *"
       />
 
       <button>Add Donor</button>
