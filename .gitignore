@@ -1,27 +1,27 @@
-backend/node_modules
-backend/frontend/node_modules
-backend/.env
+/node_modules
+/frontend/node_modules
+/.env
 .DS_Store
 
 # dependencies
 
-backend/frontend/.pnp
-backend/frontend/.pnp.js
+/frontend/.pnp
+/frontend/.pnp.js
 
 # testing
-backend/frontend/coverage
+/frontend/coverage
 
 # production
 frontend/build
 
 # misc
-backend/frontend/.DS_Store
-backend/frontend/.env.local
-backend/frontend/.env.development.local
-backend/frontend/.env.test.local
-backend/frontend/.env.production.local
+/frontend/.DS_Store
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
 
-backend/frontend/npm-debug.log*
-backend/frontend/yarn-debug.log*
-backend/frontend/yarn-error.log*
-backend/.DS_Store
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/.DS_Store
