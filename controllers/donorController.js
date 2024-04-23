@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const getDonors = async (req, res) => {
   const user_id = req.user._id;
 
-  const donors = await Donor.find({ user_id }).sort({ createdAt: -1 });
+  const donors = await Donor.find().sort({ createdAt: -1 });
 
   res.status(200).json(donors);
 };
